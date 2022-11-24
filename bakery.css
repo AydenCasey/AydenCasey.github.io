@@ -1,0 +1,154 @@
+body {
+    background-color: #ffd6ef;
+    color: #535353;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header a:link {
+    color: #ffffff;
+}
+
+header a:visited {
+    color: #ffffff;
+}
+
+header a:hover {
+    color: #ffdffa;
+}
+
+h1 {
+    background-color: #ff56b3;
+    color: #ffffff;
+    line-height: 200%;
+    text-indent: .5em;
+    margin-bottom: 0;
+    background-image: url(sugarcookies.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+h2 {
+    color: #ff006a;
+}
+
+nav {
+    font-weight: bold;
+    font-size: 120%;
+    padding: 1.5em;
+    float: left;
+    width: 160px;
+}
+
+nav a {
+    text-decoration: none;
+    transition: background-color 2s linear;
+}
+
+nav a:link {
+    color: #ffffff;
+}
+
+nav a:visited {
+    color: #f0f0f0;
+}
+
+nav a:hover {
+    color: #830066;
+    background-color: #ff006a
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+    font-size: 1.2em;
+}
+
+section {
+    float: left;
+    width: 33%;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+main {
+    background-image:
+        linear-gradient(to bottom, #ffffff, #ff8cc6);
+    color: #535353;
+    padding-top: 1px;
+    padding-right: 20px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    margin-left: 190px;
+    overflow: auto;
+    display: block;
+}
+
+p {
+    color: #ff006a;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p a {
+    color: #ff0022
+}
+
+p a:hover {
+    color: #920050
+}
+
+footer {
+    background-color: #ffcbe0;
+    font-size: 75%;
+    font-style: italic;
+    text-align: center;
+    font-family: Georgia, "Times New Roman", serif;
+    padding: 2em;
+    margin-left: 218px;
+}
+
+table {
+    border: 2px solid #ff006a;
+    border-collapse: collapse;
+}
+
+td,
+th {
+    border: 2px solid #ff006a;
+    padding: 0.5em;
+}
+
+th {
+    background-color: #ffbbdd
+}
+
+tr {
+    background-color: #ffaeff
+}
+
+td {
+    text-align: center;
+}
+
+input[type="submit"] {
+    margin-left: 0px;
+}
+
+
+.text{
+    text-align: left;
+}
+
+#wrapper {
+    background-image:
+        linear-gradient(to bottom, #ff56b3, #ff008c);
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    min-width: 960px;
+    max-width: 2048px;
+    box-shadow: 3px 3px 3px #333333;
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Katie's Bakery :: Place an Order</title>
+    <meta charset="utf-8">
+    <link href="bakery.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id=wrapper>
+        <header>
+            <h1><a href="index.html">Katie's Bakery</a></h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="table.html">What we Make</a></li>
+                <li><a href="form.html">Place an Order</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h2>Place an Order!</h2>
+            <p>Complete the form below to complete your order!</p>
+            <p>Required fields are marked with an asterisk *</p>
+
+            *What are you ordering?<br>
+
+            <form method="post" action="https://webdevbasics.net/scripts/demo.php">
+
+                <input type="radio" name="food" id="foodCH" value="ChocolateChipCookies"> Chocolate Chip Cookies<br>
+                <input type="radio" name="food" id="foodSC" value="SugarCookies"> Sugar Cookies<br>
+                <input type="radio" name="food" id="foodBDC" value="BirthdayCake"> Birthday Cake<br>
+                <br>
+
+                <label for="myFName">*First Name</label>
+                <br>
+                <input type="text" name="myFName" id="myFName">
+                <br>
+                <br>
+                <label for="myLName">*Last Name</label>
+                <br>
+                <input type="text" name="myLName" id="myLName">
+                <br>
+                <br>
+                <label for="myEmail">*E-mail</label>
+                <br>
+                <input type="email" name="myEmail" id="myEmail">
+                <br>
+                <br>
+                <label for="myPhone">Phone</label>
+                <br>
+                <input type="tel" name="myPhone" id="myPhone">
+                <br>
+                <br>
+                Will you be arriving at the bakery?<br>
+                <input type="radio" name="ArrivingAtBakery" id="ArrivingAtBakeryYES" value="yes"> Yes<br>
+                <input type="radio" name="ArrivingAtBakery" id="ArrivingAtBakeryNO" value="no"> No<br>
+                <br>
+                <label for="myAddress">What address should we deliver to?<br>(Street Address, City, State)</label>
+                <br>
+                <input type="text" name="myAddress" id="myAddress">
+                <br>
+                <br>
+
+                <input type="submit" value="Submit">
+
+            </form>
+        </main>
+        <footer>
+            <small><i>Copyright &copy; 2022 Katie's Bakery</i></small><br>
+            <small><i><a href="mailto:yourfirstname@yourlastname.com">yourfirstname@yourlastname.com</a>
+                    &nbsp;</i></small>
+        </footer>
+    </div>
+</body>
+
+</html>
